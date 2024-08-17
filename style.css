@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('path-to-your-font/gilroy-regular.woff2') format('woff2'),
+         url('path-to-your-font/gilroy-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:'gilory',sans-serif ;
+
+}
+html,body{
+    height: 100%;
+    width:100%
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+   /* background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+     
+}
+#centre{
+    width: 100%;
+    
+    padding:2px 50px;
+    margin-bottom: 5px;
+}
+#centre h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+}
+#centerin{
+    width: 100%;
+    height: 15%;
+    padding: 2px 50px;
+    margin-top: 5px;
+    margin-bottom: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+#centerin p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2cap;
+}
+#right{
+    width: 20%;
+    
+
+}
+.elem{
+    padding:20px 0 ;
+    border-top: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+
+}
+.elem:hover{
+    background-color: rgb(213, 209, 209);
+    
+}
+#bottom{
+    
+    height: 43%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-young-black-woman-modelling-modern-silver-choker-necklace-with-hoop-earrings-leaning-table-with-her-bare-shoulders-looking-aside-with-quiet-smile_126745-3244.jpg);
+    background-position: 30% 60%;
+    background-size:cover ;
+}
+#el
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 1px;
+}
+#el p{
+    color: blue;
+    font-weight: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
